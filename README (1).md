@@ -39,8 +39,8 @@
 ├── 📂 Labeled  # Thư mục chứa dữ liệu
 
 │  │  ├──📂Traning ├── 📂 Images #Thư mục chứa ảnh
-      │            ├── 📂Labels  #Thư mục chứa nhãn
-      │ 
+
+                    ├── 📂Labels  #Thư mục chứa nhãn
       
       ├──📂Testing ├── 📂 Images
       │             ├── 📂Labels
