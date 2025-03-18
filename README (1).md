@@ -44,11 +44,13 @@
       
       ├──📂Testing ├── 📂 Images
       │             ├── 📂Labels
+      
       │
       ├──📂Valid ├── 📂 Images
                   ├── 📂Labels
 ├── 📂 Nhom10-BTL #Thư mục chứa bài thuyết trình PowerPoint
-|──  KhoanhVungUNao_U_Net #Thư mục chưa file code
+
+|── 📂KhoanhVungUNao_U_Net #Thư mục chưa file code
 ---
 
 ## 🛠️ Yêu cầu hệ thống
