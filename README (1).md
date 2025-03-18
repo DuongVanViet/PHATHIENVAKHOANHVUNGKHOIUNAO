@@ -62,17 +62,29 @@
 - Cài đặt kích thước ảnh đầu vào với 256x256 pixel
 - Tạo hàm để tạo mask cho ảnh từ file labels, do file này dẽ được lưu trữ dưới file text.
   <p align="center">
-  <img src="C:\Users\VIET\Pictures\Screenshots" alt="System Architecture" width="800"/>
+  <img src="Screenshot 2025-03-18 134334.png" alt="System Architectur" width="800"/>
 </p>
 
+## Bước 3: Load toàn bộ dữ liệu 
+- Ta load toàn bộ dữ liệu trong file chứa dataset.
+
+## Bước 4: Giảm kích thước dữ liệu
+- Nếu máy đủ khỏe ta có thể cho toàn bộ dữ liệu vào training. Nếu muốn quá trình traninng diễn ra nhanh hơn ta có thể giảm kích thước dữ liệu vào để có thể traning nhanh hơn.
+
+  ## Bước 5: Xây dựng mô hình U-Net
+  - Xây dựng một mô hình U-Net và xây dựng mô hình phù hợp với quá trình phát hiện và khoanh vùng u não.
+
+  ## Bước 6: Training mô hình
+  - Sau khi xây dựng xong mô hình U-Net, ta sẽ cho dữ liệu vào training. Quá trinhg traning sẽ chạy với 50 epoch để quá trình training đạt được kết quả như mong muốn.
+ 
+  ## Bước 7: Xây dựng hàm xuất hình ảnh kết quả ra màn hình
+  - Sau khi training xây dựng một hàm để xuất kết quả ra màn hình. Từ đó giúp quan sát được kết quả mô hình chạy và huấn luyện.
 ## 🤝 Đóng góp
-Dự án được phát triển bởi 4 thành viên:
+Dự án được phát triển bởi 3 thành viên:
 
-| Họ và Tên       | Vai trò                  |
-|-----------------|--------------------------|
-| Nguyễn Nam Hưng | Phát triển toàn bộ mã nguồn, thiết kế cơ sở dữ liệu, kiểm thử, triển khai dự án và thực hiện video giới thiệu.|
-| Hoàng Mạnh Linh | Biên soạn tài liệu Overleaf, Poster, Powerpoint, thuyết trình, đề xuất cải tiến, và hỗ trợ bài tập lớn.|
-| Đào Đức Mạnh    | Thiết kế slide PowerPoint, hỗ trợ bài tập lớn.  |
-| Cao Văn Huy     | Hỗ trợ bài tập lớn       |
-
-© 2025 NHÓM 1, CNTT16-03, TRƯỜNG ĐẠI HỌC ĐẠI NAM
+| Họ và Tên        | Vai trò                  |
+|------------------|--------------------------|
+| Dương Văn Việt   | Tìm kiếm dataset, xây dựng mô hình U-Net, tìm kiếm mã nguồn, triển khai và thực hiện báo cáo và dự án, làm powerpoitn, overleaf.|
+| Lê Anh Ngọc      | Hỗ trợ bài tập lớn.      |
+| Nguyễn Mạnh Tuân | Hỗ trợ bài tập lớn.      |
+© 2025 NHÓM 10, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
