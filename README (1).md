@@ -56,7 +56,7 @@
 ## 🛠️ Yêu cầu hệ thống
 - Sử dụng mô hình U-Net để xây dựng model
 - Sử dụng colab để chạy code giúp quá trình diễn ra nhanh hơn (nếu máy đủ khỏe có thể sử dụng visual studio code)
-## 🧮 Bảng mạch
+
 
 ## Các bước thực hiện
 ## Bước 1: Kết nối với Drive để lấy dữ liệu
@@ -66,7 +66,7 @@
 - Cài đặt kích thước ảnh đầu vào với 256x256 pixel
 - Tạo hàm để tạo mask cho ảnh từ file labels, do file này dẽ được lưu trữ dưới file text.
   <p align="center">
-  <img src="Screenshot 2025-03-18 134334.png" alt="System Architectur" width="800"/>
+  <img src="Screenshot 2025-03-18 134334.png" alt="System Architectur" width="400"/>
 </p>
 
 ## Bước 3: Load toàn bộ dữ liệu 
