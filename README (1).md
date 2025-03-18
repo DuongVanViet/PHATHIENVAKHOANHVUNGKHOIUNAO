@@ -95,4 +95,5 @@ Dự án được phát triển bởi 3 thành viên:
 | Dương Văn Việt   | Tìm kiếm dataset, xây dựng mô hình U-Net, tìm kiếm mã nguồn, triển khai và thực hiện báo cáo và dự án, làm powerpoitn, overleaf.|
 | Lê Anh Ngọc      | Hỗ trợ bài tập lớn.      |
 | Nguyễn Mạnh Tuân | Hỗ trợ bài tập lớn.      |
+
 © 2025 NHÓM 10, CNTT17-15, TRƯỜNG ĐẠI HỌC ĐẠI NAM
