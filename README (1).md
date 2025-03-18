@@ -79,6 +79,9 @@
  
 ## Bước 7: Xây dựng hàm xuất hình ảnh kết quả ra màn hình
 - Sau khi training xây dựng một hàm để xuất kết quả ra màn hình. Từ đó giúp quan sát được kết quả mô hình chạy và huấn luyện.
+  <p align="center">
+  <img src="Screenshot 2025-03-10 230657.png" alt="System Architectur" width="650"/>
+</p>
   
 ## 🤝 Đóng góp
 Dự án được phát triển bởi 3 thành viên:
