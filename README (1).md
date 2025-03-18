@@ -1,5 +1,4 @@
-<h1 align="center">ỨNG DỤNG MÃ QR TRONG 
-HỆ THỐNG ĐIỂM DANH SINH VIÊN </h1>
+<h1 align="center">PHÁT HIỆN VÀ KHOANH VÙNG KHỐI U NÃO TRONG ẢNH MRI </h1>
 
 <div align="center">
 
@@ -14,21 +13,19 @@ HỆ THỐNG ĐIỂM DANH SINH VIÊN </h1>
 
 </div>
 
-<h2 align="center">Hệ thống điểm danh sinh viên bằng mã QR</h2>
+<h2 align="center">Phát hiện và khoanh vùng u não trong ảnh MRI bằng mô hình U-Net</h2>
 
 <p align="left">
-  Hệ thống điểm danh sinh viên bằng mã QR là một dự án tích hợp giữa phần cứng (Arduino) và phần mềm (Python) nhằm tự động hóa quá trình điểm danh. Dự án sử dụng mã QR để cho phép sinh viên điểm danh, đồng thời kết hợp với thông báo qua LED, còi và giọng nói để phản hồi kết quả điểm danh. Dữ liệu điểm danh được lưu trữ trong MongoDB và quản lý qua giao diện người dùng được xây dựng bằng Tkinter.
+  Phát hiện và khoanh vùng những nơi u não tồn tại trong ảnh MRI của não. Sử dụng mô hình U-Net trong quá trình phát hiện và khoanh vùng những nơi não xuất hiện những điểm lạ hoặc bất thường nghi vấn đó là u não. Mô hình U-Net giúp nhận diện những vùng u não một cách tương đối chính xác ngoài ra còn giúp phát hiện những vùng tuyến yên sau não có tổn thương từ đó giúp việc chữa trị và chuẩn đoán u não dễ dàng hơn cho bác sĩ đồng thời giảm chi phí chuẩn đoán.
 </p>
 
 ---
 
 ## 🌟 Giới thiệu
 
-- **📌 Điểm danh tự động:** Sinh viên quét mã QR để điểm danh. Hệ thống xác định điểm danh đúng hạn hay trễ qua khoảng thời gian quét.
-- **💡 Thông báo trực quan:** Arduino sẽ điều khiển LED (xanh/đỏ) và còi để thông báo kết quả điểm danh. Nếu điểm danh trễ, hệ thống phát thông báo qua loa máy tính.
-- **📊 Quản lý dữ liệu:** Dữ liệu điểm danh được lưu trong MongoDB, có thể xem lịch sử và xuất ra file CSV.
-- **🖥️ Giao diện thân thiện:** Sử dụng Tkinter cho giao diện quản lý và Flask cho xử lý điểm danh qua web.
-
+- **📌 Giúp chuẩn đoán các khối u thông qua ảnh MRI của não
+- **💡 Theo dõi sự phát triển của khối u 
+- **📊 Việc phát hiện có thể không đúng hoặc xảy ra lỗi trong quá trình phân tích
 ---
 ## 🏗️ HỆ THỐNG
 <p align="center">
