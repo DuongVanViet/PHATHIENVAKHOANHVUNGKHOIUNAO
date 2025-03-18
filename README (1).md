@@ -29,7 +29,7 @@
 ---
 ## 🏗️ HỆ THỐNG
 <p align="center">
-  <img src="images/Quytrinhdiemdanh.png" alt="System Architecture" width="800"/>
+  <img src="Screenshot 2025-03-11 095146.png" alt="System Architecture" width="800"/>
 </p>
 
 ---
