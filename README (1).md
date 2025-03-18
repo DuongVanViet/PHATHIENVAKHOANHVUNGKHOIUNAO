@@ -71,14 +71,15 @@
 ## Bước 4: Giảm kích thước dữ liệu
 - Nếu máy đủ khỏe ta có thể cho toàn bộ dữ liệu vào training. Nếu muốn quá trình traninng diễn ra nhanh hơn ta có thể giảm kích thước dữ liệu vào để có thể traning nhanh hơn.
 
-  ## Bước 5: Xây dựng mô hình U-Net
-  - Xây dựng một mô hình U-Net và xây dựng mô hình phù hợp với quá trình phát hiện và khoanh vùng u não.
+## Bước 5: Xây dựng mô hình U-Net
+- Xây dựng một mô hình U-Net và xây dựng mô hình phù hợp với quá trình phát hiện và khoanh vùng u não.
 
-  ## Bước 6: Training mô hình
-  - Sau khi xây dựng xong mô hình U-Net, ta sẽ cho dữ liệu vào training. Quá trinhg traning sẽ chạy với 50 epoch để quá trình training đạt được kết quả như mong muốn.
+## Bước 6: Training mô hình
+- Sau khi xây dựng xong mô hình U-Net, ta sẽ cho dữ liệu vào training. Quá trinhg traning sẽ chạy với 50 epoch để quá trình training đạt được kết quả như mong muốn.
  
-  ## Bước 7: Xây dựng hàm xuất hình ảnh kết quả ra màn hình
-  - Sau khi training xây dựng một hàm để xuất kết quả ra màn hình. Từ đó giúp quan sát được kết quả mô hình chạy và huấn luyện.
+## Bước 7: Xây dựng hàm xuất hình ảnh kết quả ra màn hình
+- Sau khi training xây dựng một hàm để xuất kết quả ra màn hình. Từ đó giúp quan sát được kết quả mô hình chạy và huấn luyện.
+  
 ## 🤝 Đóng góp
 Dự án được phát triển bởi 3 thành viên:
 
