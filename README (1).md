@@ -55,7 +55,15 @@
 ## 🧮 Bảng mạch
 
 ## Các bước thực hiện
+## Bước 1: Kết nối với Drive để lấy dữ liệu
+- Dữ liệu đã được thu thập từ trước ở trên kaggle và được up lên drive, dữ liệu gồm ba thư mục chính là tranining, testing và valid. Mỗi thư mục sẽ gồm hai thư mục con là images và labels.
 
+## Bước 2: Hàm tạo mask cho ảnh
+- Cài đặt kích thước ảnh đầu vào với 256x256 pixel
+- Tạo hàm để tạo mask cho ảnh từ file labels, do file này dẽ được lưu trữ dưới file text.
+  <p align="center">
+  <img src="C:\Users\VIET\Pictures\Screenshots" alt="System Architecture" width="800"/>
+</p>
 
 ## 🤝 Đóng góp
 Dự án được phát triển bởi 4 thành viên:
