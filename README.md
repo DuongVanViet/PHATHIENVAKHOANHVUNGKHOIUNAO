@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
-  <img src="LogoAIoTLab.png" alt="DaiNam University Logo" width="200"/>
+  <img src="LogoAIoTLab.png" alt="DaiNam University Logo" width="150"/>
 
 
 </p>
