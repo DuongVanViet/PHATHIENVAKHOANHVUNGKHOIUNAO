@@ -4,6 +4,8 @@
 
 <p align="center">
   <img src="logoDaiNam.png" alt="DaiNam University Logo" width="200"/>
+  <img src="lo" alt="DaiNam University Logo" width="200"/>
+
 
 </p>
 
